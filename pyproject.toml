@@ -1,0 +1,10 @@
+[project]
+name = "react-agent"
+version = "0.1.0"
+description = "Sistema de agentes de IA"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain[google-genai,ollama]>=1.0.3",
+    "rich>=14.2.0",
+]
